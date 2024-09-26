@@ -23,10 +23,9 @@ interface ALLBETServiceInterface {
      * @param string $opCode
      * @param string $account
      * @param string $betId
-     * @param string $language
      * @return mixed
      */
-    function gameDetail(string $opCode, string $account, string $betId, string $language);
+    function gameDetail(string $opCode, string $account, string $betId);
 
     /**
      * 抓取遊戲紀錄
