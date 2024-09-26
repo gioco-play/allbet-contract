@@ -13,9 +13,10 @@ interface ALLBETServiceInterface {
      * @param string $account
      * @param string $gameCode
      * @param string $language
+     * @param string $backUrl
      * @return mixed
      */
-    function gameLaunch(string $opCode, string $account, string $gameCode, string $language);
+    function gameLaunch(string $opCode, string $account, string $gameCode, string $language, string $backUrl = '');
 
     /**
      * 遊戲詳情
